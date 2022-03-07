@@ -1,0 +1,52 @@
+h2{
+    color: aqua;
+}
+
+.main-row{
+    text-align: center;
+}
+
+.info-heading{
+    color: Black;
+    align-items: flex-start;
+}
+
+.main-heading{
+    color: white;
+    margin-left: 40%;
+    line-height: 80px;
+    font-size: 85px;
+  }
+
+.image{
+    border-radius: 50%;
+    width: 40%;
+    height: 40%;
+}
+
+.form{
+    text-align: left;
+}
+
+.input-form:hover{
+    cursor: not-allowed;
+}
+
+.save-button{
+    background-color: #7b09b2;
+    border-color:  #7b09b2;
+    outline: #7b09b2;
+    border-radius: 5px;
+}
+
+.save-button:hover{
+    background-color: white;
+    color: #7b09b2;
+    border: 2px solid  #7b09b2;
+    border-radius: 5px;
+    
+}
+
+.save-button:active, .save-button:visited{
+    border-color: transparent !important;
+}
